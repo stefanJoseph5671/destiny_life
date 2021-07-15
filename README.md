@@ -1,2 +1,2 @@
-# destiny_life
+# Destiny Life Repo
 Destiny Life International Website
