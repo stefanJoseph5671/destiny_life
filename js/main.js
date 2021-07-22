@@ -37,7 +37,7 @@ $(document).ready( function() {
     
 
 //PRELOADER
- $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+ $('#preloader').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website.
    
 
 // HOME PAGE HEIGHT
