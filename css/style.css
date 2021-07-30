@@ -2063,6 +2063,13 @@ a.gallery:focus{
     margin-top: 10px;
 }
 
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+
 
 @media (min-width: 320px) and (max-width: 480px) {
   
@@ -2097,6 +2104,12 @@ a.gallery:focus{
     .discount-tag {
         font-size: 12px;
     }
+
+    .mob-left {
+        text-align: left !important;
+        float: left !important;
+        margin-left: -15px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -2110,6 +2123,12 @@ a.gallery:focus{
 
     .partner-link {
         width: 200px;
+    }
+
+    .mob-left {
+        text-align: left !important;
+        float: left !important;
+        margin-left: -15px;
     }
 }
 
@@ -2144,6 +2163,12 @@ a.gallery:focus{
 
     .partner-link {
         width: 450px;
+    }
+
+    .mob-left {
+        text-align: left !important;
+        float: left !important;
+        margin-left: -15px;
     }
 }
 
