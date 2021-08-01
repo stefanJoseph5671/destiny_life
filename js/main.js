@@ -68,6 +68,12 @@ $('.hamburger').on('click', function () {
 
 $('#nav-icon').click(function(){
     $(this).toggleClass('open');
+    var el = document.getElementById('nav-icon');
+    if (el.classList.contains('open')) {
+        document.getElementById('loginBtn').style.display= "none";
+    } else {
+        document.getElementById('loginBtn').style.display= "block";
+    }
 });
     
 
@@ -160,6 +166,17 @@ if (owlcar.length) {
             ]
         , });
     });
+}
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById('loginBtn').style.visibility = "visible";
+  } else {
+    document.getElementById('loginBtn').style.visibility = "hidden";
+  }
+  prevScrollpos = currentScrollPos;
 }
     
     

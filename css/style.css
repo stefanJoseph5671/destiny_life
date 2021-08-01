@@ -1132,7 +1132,7 @@ content: '';
 
 .sitebtn:after {
     font-family: FontAwesome;
-    content: "\f178";
+    content: "\f090";
     color: #fff;
     float: right;
 }
@@ -2070,6 +2070,12 @@ a.gallery:focus{
     grid-row-gap: 10px;
 }
 
+.login-btn {
+    z-index: 3;
+    position: fixed;
+    top: -15px;
+    right: 90px;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   
@@ -2109,6 +2115,10 @@ a.gallery:focus{
         text-align: left !important;
         float: left !important;
         margin-left: -15px;
+    }
+    
+    .login-btn {
+        right: 70px;
     }
 }
 
