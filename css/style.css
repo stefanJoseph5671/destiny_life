@@ -1123,11 +1123,11 @@ content: '';
     -o-transition: background-color 0.3s linear;
     transition: background-color 0.3s linear;
    background: #fff;
-   color: #000;
+   color: #fff;
 }
 
 .sitebtn:hover:after{
-   color: #000;
+   color: #fff;
 }
 
 .sitebtn:after {
@@ -2075,6 +2075,9 @@ a.gallery:focus{
     position: fixed;
     top: -15px;
     right: 90px;
+    background-image: linear-gradient(to right, #7cd6e4, #376ca0) !important;
+    border-radius: 7px;
+    border: none !important;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
